@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ashishkumar/Projects/MyfirstCurd/AspCoreCRUD.csproj": {}
+  },
+  "projects": {
+    "/Users/ashishkumar/Projects/MyfirstCurd/AspCoreCRUD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ashishkumar/Projects/MyfirstCurd/AspCoreCRUD.csproj",
+        "projectName": "AspCoreCRUD",
+        "projectPath": "/Users/ashishkumar/Projects/MyfirstCurd/AspCoreCRUD.csproj",
+        "packagesPath": "/Users/ashishkumar/.nuget/packages/",
+        "outputPath": "/Users/ashishkumar/Projects/MyfirstCurd/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ashishkumar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
